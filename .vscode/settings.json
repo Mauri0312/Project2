@@ -1,0 +1,21 @@
+{
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "clang-format.executable": "clang-format-18",
+    "clang-tidy.executable": "clang-tidy-18",
+    "clang-tidy.fixOnSave": true,
+    "clang-tidy.lintOnSave": true,
+    "clang-tidy.compilerArgs": [
+        "--config-file=.clang-tidy"
+    ],
+    "clang-tidy.buildPath": "build",
+
+    "cmake.options.statusBarVisibility": "compact",
+    "cmake.configureArgs": ["-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"],
+
+    "terminal.integrated.defaultProfile.linux": "bash",
+}
