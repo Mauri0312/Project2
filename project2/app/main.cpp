@@ -18,13 +18,13 @@ int main()
 
     // Create a SeniorDeveloper instance with name and alias.
     // Use make_shared for efficient memory allocation.
-    auto seniorDev = std::make_shared<SeniorDeveloper>("Diana Prince", "Wonder Woman");
+    auto seniorDev = std::make_shared<SeniorDeveloper>("Tony Stark", "Iron Man");
     // Load the logo for the senior developer from a file.
     // The file path is constructed using the RESOURCE_PATH macro.
     seniorDev->load_logo_from_file(std::string(RESOURCE_PATH) + "/senior_logo.txt");
 
     // Create a JuniorDeveloper instance with name and alias.
-    auto juniorDev = std::make_shared<JuniorDeveloper>("Peter Parker", "Spiderman");
+    auto juniorDev = std::make_shared<JuniorDeveloper>("Steve Rogers", "Captain America");
     // Load the logo for the junior developer from a file.
     juniorDev->load_logo_from_file(std::string(RESOURCE_PATH) + "/junior_logo.txt");
 
